@@ -12,7 +12,7 @@ Market Price Prediction with Attention-based Graph Network for Spatial-Temporal 
 - device: CPU/GPU
 - nb_block: number of ASTGCN blocks in the submodule
 - in_channels: number of input features
-- K: Degree of CHebyshev polynomial
+- K: Degree of Chebyshev polynomial
 - nb_chev_filter: number of output filters in Chebyshev convolution
 - nb_time_filter: number of output filters in temporal convolution
 - time_strides: stride of the temporal convolution

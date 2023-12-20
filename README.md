@@ -4,6 +4,12 @@ Market Price Prediction with Attention-based Graph Network for Spatial-Temporal 
 # Reference
 
 # Configuration
+Due to a known bug causing conflicts between DGL and CUDA version 12.1, it is recommended to set the CUDA version to 11.8.
+You can download a CUDA-compatible version of DGL using the following code:
+```
+!pip install  dgl -f https://data.dgl.ai/wheels/cu118/repo.html
+!pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
+```
 
 # Datasets
 

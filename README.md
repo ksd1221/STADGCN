@@ -12,6 +12,7 @@ You can download a CUDA-compatible version of DGL using the following code:
 ```
 
 # Datasets
+We sourced our data from 'Opinet'(https://www.opinet.co.kr/user/main/mainView.do), the official website of the South Korea National Oil Corporation.
 
 # Train and Test
 ## Model Parameters

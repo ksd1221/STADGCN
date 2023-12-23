@@ -7,8 +7,9 @@ The below figure is the Architectural Overview of STAD-GCN: Multimodal Fusion wi
 
 # Requirements
 ```
-python==
-cuda==
+python==3.10.12
+cuda==11.8
+pytorch==2.1.0
 ```
 Due to a known bug causing conflicts between DGL and CUDA version 12.1, it is recommended to set the CUDA version to 11.8.
 You can download a CUDA-compatible version of DGL using the following code:

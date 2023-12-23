@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from MAGNET.model.layers import Temporal_Attention_layer, Spatial_Attention_layer, cheb_conv_withSAt, MultipleEmbeddings
+from STADGCN.model.layers import Temporal_Attention_layer, Spatial_Attention_layer, cheb_conv_withSAt, MultipleEmbeddings
 
 class ASTGCN_block(nn.Module):
     def __init__(self, DEVICE, in_channels, K, nb_chev_filter, nb_time_filter,time_strides, cheb_polynomials, num_of_vertices, num_of_timesteps):
@@ -148,7 +148,7 @@ class LSTMModel(nn.Module):
     return outputs
 
 
-class model_MAGNET(nn.Module):
+class model_STADGCN(nn.Module):
     def __init__(self, DEVICE, nb_block, in_channels, K, nb_chev_filter, nb_time_filter, time_strides,
                  cheb_polynomials, num_for_predict, len_input, num_of_vertices,
                  lstm_hidden_dim, lstm_num_layers, cardinalities):
@@ -171,7 +171,7 @@ class model_MAGNET(nn.Module):
         :param cardinalities: cardinality list of categorical features
         """
 
-        super(model_MAGNET, self).__init__()
+        super(model_STADGCN, self).__init__()
         # embedding layer
         self.multiple_embeddings = MultipleEmbeddings(cardinalities)
 

@@ -3,7 +3,7 @@ We introduce STAD-GCN, a pioneering model that integrates temporal and spatial e
 
 The below figure is the Architectural Overview of STAD-GCN: Multimodal Fusion with ASTGCN and LSTM for Retail Gasoline Price Prediction is outlined as follows: (A) Preprocessing: Input data is preprocessed based on its characteristics. It is formatted as a graph-based time series and routed to (B), while also treated as a standard time series sent to (C). (B) Spatial-Temporal (ST) Blocks: Within (B), the data undergoes processing via two ST blocks, correlating to the number of nodes. These blocks handle the data, ultimately stacking the resultant vectors. (C) Final Prediction: The vectors from the previous step are directed to (D) for final prediction. (D) Prediction Generation: In this phase, the received vectors are concatenated and processed through a fully-connected layer, generating the ultimate predicted values.
 
-<img src='figure/model_architecture.png' width="90%" height="90%">
+<p align="center"><img src='figure/model_architecture.png' width="90%" height="90%"></p>
 
 # Requirements
 ```

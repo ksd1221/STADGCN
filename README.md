@@ -13,7 +13,7 @@ pytorch==2.1.0
 ```
 
 # Datasets
-We have sampled ten gas stations each from the two cities tested, Seoul and Busan, and uploaded data corresponding to price and status over a ten weeks period for each station. Additionally, international crude oil prices and refinery supply prices have also been sampled for the same duration.
+We have sampled ten gas stations from the tested city, Seoul, and uploaded data corresponding to price and status over a fifteen-week period for each station. Additionally, international crude oil prices and refinery supply prices have also been sampled for the same duration.
 If you wish to access more data, please visit the following site.
 [Opinet](https://www.opinet.co.kr/user/main/mainView.do), the official website of the South Korea National Oil Corporation.
 

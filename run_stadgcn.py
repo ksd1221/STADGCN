@@ -1,4 +1,3 @@
-import dgl
 import torch
 import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
@@ -7,13 +6,11 @@ import os
 import warnings
 import numpy as np
 import pandas as pd
-import scipy.sparse as sp
 from sklearn.preprocessing import StandardScaler
 
-import matplotlib.pyplot as plt
-import STADGCN.model.model as model
-import STADGCN.utils.util as util
-import STADGCN.utils.astgcn_util as util2
+import model.model as model
+import utils.util as util
+import utils.astgcn_util as util2
 import gc
 
 gc.collect()

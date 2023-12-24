@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from STADGCN.model.layers import Temporal_Attention_layer, Spatial_Attention_layer, cheb_conv_withSAt, MultipleEmbeddings
+from model.layers import Temporal_Attention_layer, Spatial_Attention_layer, cheb_conv_withSAt, MultipleEmbeddings
 
 class ASTGCN_block(nn.Module):
     def __init__(self, DEVICE, in_channels, K, nb_chev_filter, nb_time_filter,time_strides, cheb_polynomials, num_of_vertices, num_of_timesteps):

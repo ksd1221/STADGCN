@@ -11,15 +11,12 @@ python==3.10.12
 cuda==11.8
 pytorch==2.1.0
 ```
-Due to a known bug causing conflicts between DGL and CUDA version 12.1, it is recommended to set the CUDA version to 11.8.
-You can download a CUDA-compatible version of DGL using the following code:
-```
-!pip install  dgl -f https://data.dgl.ai/wheels/cu118/repo.html
-!pip install  dglgo -f https://data.dgl.ai/wheels-test/repo.html
-```
 
 # Datasets
-We sourced our data from 'Opinet'(https://www.opinet.co.kr/user/main/mainView.do), the official website of the South Korea National Oil Corporation.
+We have sampled ten gas stations each from the two cities tested, Seoul and Busan, and uploaded data corresponding to price and status over a ten-day period for each station. Additionally, international crude oil prices and refinery supply prices have also been sampled for the same duration.
+If you wish to access more data, please visit the following site.
+- 'Opinet'(https://www.opinet.co.kr/user/main/mainView.do), the official website of the South Korea National Oil Corporation.
+
 
 # Train and Test
 ## Model Parameters

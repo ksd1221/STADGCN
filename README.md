@@ -39,3 +39,13 @@ If you wish to access more data, please visit the following site.
 - **num_for_predict**: number of steps to predict
 - **save_path**: save path for model
 - **device**: CPU/GPU
+
+# Citation
+@article{kim2024stad,
+  title={STAD-GCN: Spatial-Temporal Attention-based Dynamic Graph Convolutional Network for retail market price prediction},
+  author={Kim, Sodam and Park, Eunil},
+  journal={Expert Systems with Applications},
+  pages={124553},
+  year={2024},
+  publisher={Elsevier}
+}
